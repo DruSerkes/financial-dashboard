@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Navbar } from './Components/Navbar';
 import { useStyles } from './styles';
 import { Container, Typography } from '@material-ui/core';
+import { Home } from './Containers/Home';
 import './App.css';
 
 // TODO 
@@ -18,7 +19,7 @@ export const App: React.FC = () => {
 
       <Container className={classes.main} component="main">
         <Typography variant="h1">My Financial Dashboard</Typography>
-
+        <Home />
       </Container>
     </div>
   );

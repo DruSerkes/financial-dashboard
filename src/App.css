@@ -2,3 +2,42 @@
   text-align: center;
 }
 
+.Home > div {
+  border: 1px solid black;
+}
+
+.Home {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 200px auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 1rem;
+}
+
+.Home-Info {
+  grid-row: span 2;
+}
+
+.Home-Positions {
+  grid-column: span 2;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .Home {
+    grid-template-columns: 225px auto;
+    grid-template-rows: auto auto auto;
+  }
+  .Home-Positions {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home {
+    grid-template-columns: auto;
+  }
+  .Home-Positions {
+    grid-column: span 1;
+  }
+}
