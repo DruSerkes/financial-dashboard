@@ -1,4 +1,7 @@
 import * as React from 'react';
+import { Navbar } from './Components/Navbar';
+import { useStyles } from './styles';
+import { Container, Typography } from '@material-ui/core';
 import './App.css';
 
 // TODO 
@@ -7,9 +10,16 @@ import './App.css';
 // github: https://github.com/tjvantoll/financial-dashboard/tree/start
 
 export const App: React.FC = () => {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <h1>My Financial Dashboard</h1>
+    <div className={classes.App}>
+      <Navbar />
+
+      <Container className={classes.main} component="main">
+        <Typography variant="h1">My Financial Dashboard</Typography>
+
+      </Container>
     </div>
   );
 };
