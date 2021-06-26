@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Box } from '@material-ui/core';
-
-// interface ComponentProps {propTypes}
+import { Performance } from '../Components/Performance';
+// interface HomeProps {propTypes}
 
 export const Home: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ export const Home: React.FC = () => {
       </Box>
       <Box className="Home-Performance">
         <p>Performance</p>
-        {/* TODO Line chart for performance data */}
+        <Performance />
       </Box>
       <Box className="Home-Positions">
         <p>Positions</p>
