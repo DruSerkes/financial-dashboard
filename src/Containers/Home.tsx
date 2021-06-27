@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Box } from '@material-ui/core';
 import { Performance } from '../Components/Performance';
+import { Allocation } from '../Components/Allocation';
 // interface HomeProps {propTypes}
 
 export const Home: React.FC = () => {
@@ -13,7 +14,7 @@ export const Home: React.FC = () => {
 
       <Box className="Home-Allocation">
         <p>Allocation</p>
-        {/* TODO Pie chart for allocation data */}
+        <Allocation />
       </Box>
       <Box className="Home-Performance">
         <p>Performance</p>

@@ -3,7 +3,10 @@
 }
 
 .Home > div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .Home {
@@ -22,10 +25,14 @@
   grid-column: span 2;
 }
 
-.Home-Performance {
-  max-width: 75%;
-}
+/* .Home-Performance {
+  
+} */
 
+.Allocation-Label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
 
 @media only screen and (max-width: 750px) {
   .Home {
