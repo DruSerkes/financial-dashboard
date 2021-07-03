@@ -12,13 +12,11 @@ import './App.css';
 
 // TODO 
 /* 
-0. Create dummy data 
 1. Create Info panel
-2. Create Allocation pie-chart 
-3. Create Performance line-chart 
-4. Create Positions table 
-5. Style it 
-6. Did you write tests?? 
+2. Finish Allocation pie-chart  
+3. Create Positions table 
+4. Style it 
+5. Did you write tests?? 
 */
 export const App: React.FC = () => {
   const classes = useStyles();
