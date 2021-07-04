@@ -25,6 +25,11 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         nested: {
             paddingLeft: theme.spacing(4)
+        },
+        topLine: {
+            backgroundColor: 'whitesmoke',
+            borderRadius: '3px',
+            borderBottom: '1px solid lightgrey'
         }
     }),
 );

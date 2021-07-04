@@ -23,10 +23,10 @@ export interface ManagerType {
 
 export interface QuarterType {
     title: string,
-    details: [{
+    details: {
         name: string,
         value: string
-    }]
+    }[]
 }
 export interface FundInfoType {
     managers: ManagerType[],

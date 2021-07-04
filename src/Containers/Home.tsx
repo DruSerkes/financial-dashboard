@@ -25,7 +25,6 @@ export const Home: React.FC = () => {
         <p>Positions</p>
         <Positions />
       </Box>
-
     </Box>
   );
 };

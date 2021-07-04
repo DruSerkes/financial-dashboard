@@ -12,9 +12,9 @@ import './App.css';
 
 // TODO 
 /* 
-1. Create Info panel
-4. Style it 
-5. Did you write tests?? 
+1. Style it 
+2. Write tests
+3. Deploy somewhere!
 */
 export const App: React.FC = () => {
   const classes = useStyles();

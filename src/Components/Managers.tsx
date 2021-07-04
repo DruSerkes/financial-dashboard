@@ -16,7 +16,7 @@ export const Managers: React.FC<ManagersProps> = ({ managers }) => {
   const handleShowManagers = () => setIsOpen(!isOpen);
   return (
     <>
-      <ListItem button onClick={handleShowManagers}>
+      <ListItem button onClick={handleShowManagers} className={classes.topLine}>
         <ListItemIcon>
           <PersonOutline />
         </ListItemIcon>
