@@ -13,7 +13,7 @@ import './App.css';
 // TODO 
 /* 
 1. Create Info panel
-3. Create Positions table 
+3. Finish Positions table 
 4. Style it 
 5. Did you write tests?? 
 */
