@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Box } from '@material-ui/core';
 import { Performance } from '../Components/Performance';
 import { Allocation } from '../Components/Allocation';
+import { Positions } from '../Components/Positions';
 // interface HomeProps {propTypes}
 
 export const Home: React.FC = () => {
@@ -22,7 +23,7 @@ export const Home: React.FC = () => {
       </Box>
       <Box className="Home-Positions">
         <p>Positions</p>
-        {/* TODO table for positions info */}
+        <Positions />
       </Box>
 
     </Box>
