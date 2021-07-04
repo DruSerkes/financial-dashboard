@@ -1,14 +1,22 @@
-export interface Allocation {
-    category: string,
-    value: number
+export interface ColorsType {
+    [index: string]: string,
+    DOMESTIC: string
+    CASH: string
+    BONDS: string
+    INTERNATIONAL: string
 };
 
-export interface Performance {
+export interface AllocationType {
+    category: String,
+    value: Number
+};
+
+export interface PerformanceType {
     year: number,
     balance: string
 };
 
-export interface FundInfo {
+export interface FundInfoType {
     managers: [{
         firstName: string,
         lastName: string,
@@ -23,7 +31,7 @@ export interface FundInfo {
     }]
 };
 
-export interface Position {
+export interface PositionType {
     symbol: string,
     name: string,
     currency: string,

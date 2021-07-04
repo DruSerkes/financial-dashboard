@@ -13,7 +13,7 @@ export const Home: React.FC = () => {
       </Box>
 
       <Box className="Home-Allocation">
-        <p>Allocation</p>
+        <p>Allocation (%)</p>
         <Allocation />
       </Box>
       <Box className="Home-Performance">
