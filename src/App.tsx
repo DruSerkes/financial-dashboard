@@ -13,7 +13,6 @@ import './App.css';
 // TODO 
 /* 
 1. Create Info panel
-2. Finish Allocation pie-chart  
 3. Create Positions table 
 4. Style it 
 5. Did you write tests?? 
