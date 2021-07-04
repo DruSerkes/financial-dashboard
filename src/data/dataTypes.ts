@@ -15,20 +15,22 @@ export interface PerformanceType {
     year: number,
     balance: string
 };
+export interface ManagerType {
+    firstName: string,
+    lastName: string,
+    position: string
+}
 
-export interface FundInfoType {
-    managers: [{
-        firstName: string,
-        lastName: string,
-        position: string
-    }],
-    quarters: [{
-        title: string,
-        details: [{
-            name: string,
-            value: string
-        }]
+export interface QuarterType {
+    title: string,
+    details: [{
+        name: string,
+        value: string
     }]
+}
+export interface FundInfoType {
+    managers: ManagerType[],
+    quarters: QuarterType[]
 };
 
 export interface PositionType {

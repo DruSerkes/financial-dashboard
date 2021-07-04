@@ -14,6 +14,17 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         title: {
             flexGrow: 1,
+        },
+        info: {
+            width: '100%',
+            maxWidth: '36ch',
+            backgroundColor: theme.palette.background.paper
+        },
+        inline: {
+            display: 'inline'
+        },
+        nested: {
+            paddingLeft: theme.spacing(4)
         }
     }),
 );
