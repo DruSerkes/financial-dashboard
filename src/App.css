@@ -31,9 +31,14 @@
   font-size: 10px;
 }
 
-.Positions-Table {
+.Positions-Container {
   height: 400px;
   width: 100%;
+}
+
+.MuiDataGrid-row > div:first-child, 
+.MuiDataGrid-columnHeaderWrapper > div:first-child {
+  background: whitesmoke;
 }
 
 .MuiDataGrid-columnHeaderTitle {
