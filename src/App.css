@@ -1,13 +1,17 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+h5 {
+  margin: 1rem 0 !important;
 }
 
 .Home > div {
-  /* border: 1px solid black; */
   max-width: 100%;
   max-height: 30vh;
   padding: 0;
-  margin: 0;
+  margin: 0 0.5rem;
 }
 
 .Home {
@@ -24,6 +28,7 @@
 
 .Home-Positions {
   grid-column: span 2;
+  margin-top: 2rem !important;
 }
 
 .Allocation-Label {

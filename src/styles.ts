@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         main: {
             textAlign: 'center',
-            marginTop: theme.spacing(2)
+            marginTop: theme.spacing(2),
         },
         menuButton: {
             marginRight: theme.spacing(2),

@@ -10,7 +10,6 @@ import './App.css';
 // github: https://github.com/tjvantoll/financial-dashboard/tree/start
 
 /* TODO 
-1. Style it 
 2. Write tests
 3. Deploy somewhere!
 */
@@ -22,7 +21,7 @@ export const App: React.FC = () => {
       <Navbar />
 
       <Container className={classes.main} component="main">
-        <Typography variant="h1">My Financial Dashboard</Typography>
+        <Typography variant="h1">Sample Financial Dashboard</Typography>
         <Home />
       </Container>
     </div>
