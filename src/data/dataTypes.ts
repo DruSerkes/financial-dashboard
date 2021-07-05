@@ -28,6 +28,10 @@ export interface QuarterType {
         value: string
     }[]
 }
+
+export interface QuarterDataType extends QuarterType {
+    show: boolean
+}
 export interface FundInfoType {
     managers: ManagerType[],
     quarters: QuarterType[]

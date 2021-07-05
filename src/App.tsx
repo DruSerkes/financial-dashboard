@@ -5,13 +5,11 @@ import { Container, Typography } from '@material-ui/core';
 import { Home } from './Containers/Home';
 import './App.css';
 
-// TODO 
-// Build a financial dashboard with data and UI resembling this tutorial, but with recharts and your own spin 
+// Financial dashboard with data & UI resembling a tutorial, but with recharts, Material- UI, and a bit of my own spin 
 // tutorial: https://www.telerik.com/blogs/lets-build-a-financial-dashboard-with-react?utm_medium=cpm&utm_source=jsweekly&utm_campaign=kendo-ui-react-blog-fin-dashboard&utm_content=sponsored-link#step-2-adding-ui-components
 // github: https://github.com/tjvantoll/financial-dashboard/tree/start
 
-// TODO 
-/* 
+/* TODO 
 1. Style it 
 2. Write tests
 3. Deploy somewhere!
