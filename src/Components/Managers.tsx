@@ -22,12 +22,12 @@ export const Managers: React.FC<ManagersProps> = ({ managers }) => {
           <PersonOutline />
         </ListItemIcon>
         <ListItemText primary="Managers" />
-        {isOpen ? <ExpandLess /> : <ExpandMore />}
+        {isOpen ? <ExpandLess /> : <ExpandMore data-testid="expand" />}
       </ListItem>
       <Collapse in={isOpen} unmountOnExit>
         <List className="Managers-List" disablePadding>
           {managers.map(manager => {
-            return (<Manager manager={manager} />)
+            return (<Manager manager={manager} key={`${manager.firstName}-${manager.lastName}`} />)
           })}
         </List>
       </Collapse>
