@@ -11,7 +11,7 @@ interface QuarterDetailProps {
 export const QuarterDetail: React.FC<QuarterDetailProps> = ({ details, show }) => {
   return (
     <Collapse in={show} unmountOnExit>
-      {details.map((detail) => (<Typography variant="body2"><strong>{detail.name}</strong>: {detail.value}</Typography>))}
+      {details.map((detail, idx) => (<Typography key={`detail-${idx}`} variant="body2"><strong>{detail.name}</strong>: {detail.value}</Typography>))}
     </Collapse>
   )
 };
