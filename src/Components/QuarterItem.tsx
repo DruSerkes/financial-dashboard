@@ -22,7 +22,7 @@ export const QuarterItem: React.FC<QuarterItemProps> = ({ quarter, handleShowDet
             <Typography>
               {quarter.title}
               {quarter.show
-                ? <ArrowDropUpOutlined onClick={handleClick} />
+                ? <ArrowDropUpOutlined data-testid="arrow-dropup" onClick={handleClick} />
                 : <ArrowDropDownOutlined onClick={() => handleShowDetail(quarter)} />}
             </Typography>
           }
