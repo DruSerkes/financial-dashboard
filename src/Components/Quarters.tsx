@@ -31,7 +31,7 @@ export const Quarters: React.FC<QuartersProps> = ({ quarters }) => {
       </ListItem>
       <Collapse in={isOpen} unmountOnExit>
         <List className="Quarters-List" disablePadding>
-          {quartersData.map(quarter => (<QuarterItem quarter={quarter} handleShowDetail={handleShowDetail} />)
+          {quartersData.map(quarter => (<QuarterItem key={quarter.title} quarter={quarter} handleShowDetail={handleShowDetail} />)
           )}
         </List>
       </Collapse>

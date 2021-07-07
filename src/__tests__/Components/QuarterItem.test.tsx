@@ -17,7 +17,7 @@ describe('QuarterItem tests', () => {
     render(<QuarterItem quarter={quarter} handleShowDetail={handleShowDetail} />);
   });
 
-  it('should render column header names', () => {
+  it('should render title, name, value', () => {
     const { getByText } = render(<QuarterItem quarter={quarter} handleShowDetail={handleShowDetail} />);
     const title = getByText(quarter.title);
     expect(title).toBeInTheDocument();

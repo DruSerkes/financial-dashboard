@@ -13,7 +13,7 @@ describe('QuarterDetail tests', () => {
     render(<QuarterDetail details={details} show />);
   });
 
-  it('should render column header names', () => {
+  it('should render name, value', () => {
     const { getByText } = render(<QuarterDetail details={details} show />);
     const name = getByText(details[0].name);
     const value = getByText(`: ${details[0].value}`);
